@@ -13,12 +13,12 @@ const vite = {
     //   host: process.env.HMR_HOST ? process.env.HMR_HOST.substring("https://".length) : "localhost"
     // }
   },
-  resolve: {
-    alias: {
-      $app: path.resolve(__dirname, '.svelte-kit/dev/runtime/app'),
-      $lib: path.resolve(__dirname, 'src/lib'),
-    }
-  }
+  // resolve: {
+  //   alias: {
+  //     $app: path.resolve(__dirname, '.svelte-kit/dev/runtime/app'),
+  //     $lib: path.resolve(__dirname, 'src/lib'),
+  //   }
+  // }
 }
 
 export default { vite };
