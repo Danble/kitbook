@@ -9,8 +9,9 @@ ports:
 tasks:
   - init: npm install
     command: |
+      export HMR_HOST=`gp url 4242`
       export HMR_HOST=`gp url 3000`
-      npm run vitebook:dev
+      npm run svench
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)

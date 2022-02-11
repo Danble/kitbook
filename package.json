@@ -16,7 +16,7 @@
 		"postversion": "git push && git push --tags && npm run release",
 		"svench-build": "svench build",
 		"test": "jest",
-		"workbench": "npx svench"
+		"svench": "svench"
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^1.0.0-next.260",
