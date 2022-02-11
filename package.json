@@ -16,9 +16,7 @@
 		"postversion": "git push && git push --tags && npm run release",
 		"svench-build": "svench build",
 		"test": "jest",
-		"vitebook:dev": "vitebook dev",
-		"vitebook:build": "vitebook build",
-		"vitebook:preview": "vitebook preview"
+		"workbench": "npx svench"
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^1.0.0-next.260",
@@ -30,11 +28,6 @@
 		"@types/youtube": "^0.0.46",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
-		"@vitebook/client": "0.19.11",
-		"@vitebook/core": "0.19.11",
-		"@vitebook/markdown-shiki": "0.19.11",
-		"@vitebook/markdown-svelte": "0.19.11",
-		"@vitebook/theme-default": "0.19.11",
 		"autoprefixer": "^10.4.2",
 		"cssnano": "^5.0.16",
 		"eslint": "^7.22.0",
@@ -53,13 +46,12 @@
 		"svelte-jester": "^2.3.1",
 		"svelte-preprocess": "^4.10.2",
 		"svelte2tsx": "^0.5.2",
-		"svench": "^0.2.0-30",
+		"svench": "^0.2.0-33-kit",
 		"tailwindcss": "^3.0.18",
 		"ts-jest": "^27.1.3",
 		"tslib": "^2.3.1",
 		"typescript": "^4.0.0",
 		"vite": "^2.7.13",
-		"vitebook-addons": "^0.0.2",
 		"yootils": "^0.3.1"
 	},
 	"peerDependencies": {
