@@ -9,7 +9,6 @@ ports:
 tasks:
   - init: npm install
     command: |
-      export HMR_HOST=`gp url 4242`
       export HMR_HOST=`gp url 3000`
       npm run svench
 github:
